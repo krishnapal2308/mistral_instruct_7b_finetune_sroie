@@ -84,7 +84,7 @@ response = generate_response(prompt, model, tokenizer)
 
 ## Results
 * Reduced model size by 48.19% through 4-bit quantization, from 7.24B to 3.75B parameters.
-* Decreased the number of trainable parameters by 99.62% using LoRA, from 7.24B to just 27.26M.
+* Decreased the number of trainable parameters by 99.81% using LoRA, from 7.24B to just 13.63M.
 * Improved inference speed by approximately 24% while maintaining high accuracy.
 * Successfully fine-tuned and deployed the model for specific tasks on Hugging Face.
 
